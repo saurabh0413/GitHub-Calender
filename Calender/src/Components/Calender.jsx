@@ -27,7 +27,7 @@ const Calender = () => {
         blockSize={20}
         fontSize={20}
       >
-        <ReactTooltip delayShow={20} html />
+         <ReactTooltip delayShow={20} html /> 
       </GitHubCalendar>
     </div>
   );

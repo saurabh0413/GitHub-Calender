@@ -3,6 +3,7 @@ import styled from "styled-components";
 import "../App.css";
 const Stats = () => {
   return (
+    // streak 
     <div>
       <div style={{ width: "40%", margin: "auto" }}>
         <a href="https://github.com/saurabh0413">
@@ -12,7 +13,7 @@ const Stats = () => {
           />
         </a>
       </div>
-
+ 
       <div
         style={{
           width: "60%",
@@ -21,16 +22,16 @@ const Stats = () => {
           margin: "auto",
         }}
       >
-        <a href="https://github.com/saurabh0413">
+        <a href="https://github.com/saurabh0413">  
           <img
             align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=saurabh0413"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=saurabh0413"  //launguages
           />
         </a>
         <a href="https://github.com/saurabh0413">
           <img
             align="left"
-            src="https://github-readme-stats.vercel.app/api?username=saurabh0413&count_private=true&show_icons=true"
+            src="https://github-readme-stats.vercel.app/api?username=saurabh0413&count_private=true&show_icons=true" //stats
           />
         </a>
       </div>
